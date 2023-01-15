@@ -1,0 +1,36 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-01T10:16:16.019Z",
+        "line": 3,
+        "name": "windows handling cridential testing",
+        "description": "",
+        "id": "windows-handling-funtionlity-testing;windows-handling-cridential-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46346000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on windows handling main page",
+            "match": {
+              "location": "org.test.StepDefClass.user_is_on_windows_handling_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "windows handling funtionlity testing",
+    "description": "",
+    "id": "windows-handling-funtionlity-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/WindowsHandling.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-01T11:17:55.119Z",
+        "line": 3,
+        "name": "OrangeHRM login page testing",
+        "description": "",
+        "id": "orangehrm-login-page-funtionlity-testing;orangehrm-login-page-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [OrangeHRM Inc - YouTube] but found [OrangeHRM]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat org.test.StepDefClass.user_is_on_orange_hrm_login_page(StepDefClass.java:61)\r\n\tat ✽.user is on OrangeHRM login page(file:///C:/Users/my%20pc/eclipse-workspace/OrangeHRM/src/test/resources/FeatureFiles/OrangeHRMLogin.feature:5)\r\n",
+              "duration": 24169000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is on OrangeHRM login page",
+            "match": {
+              "location": "org.test.StepDefClass.user_is_on_orange_hrm_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM login page funtionlity testing",
+    "description": "",
+    "id": "orangehrm-login-page-funtionlity-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/OrangeHRMLogin.feature",
+    "tags": []
+  }
+]

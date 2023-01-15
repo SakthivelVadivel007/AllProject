@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.102">
+<testcase classname="OrangeHRM login page funtionlity testing" name="OrangeHRM login page testing" time="24.713">
+<failure message="expected [OrangeHRM Inc - YouTube] but found [OrangeHRM]" type="java.lang.AssertionError"><![CDATA[Given user is on OrangeHRM login page.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [OrangeHRM Inc - YouTube] but found [OrangeHRM]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at org.test.StepDefClass.user_is_on_orange_hrm_login_page(StepDefClass.java:61)
+	at ✽.user is on OrangeHRM login page(file:///C:/Users/my%20pc/eclipse-workspace/OrangeHRM/src/test/resources/FeatureFiles/OrangeHRMLogin.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
